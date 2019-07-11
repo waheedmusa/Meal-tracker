@@ -1,0 +1,9 @@
+<div>
+    <h1>My Meal</h1>
+    <hr>
+    <ul>
+        <li *ngFor = 'let meal of meals'>
+           {{meal.id}}. {{meal.name}}: {{meal.calories}} {{meal.description}}
+        </li>
+    </ul>
+</div>
